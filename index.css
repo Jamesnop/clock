@@ -53,10 +53,9 @@
 }
 
 h2{
-    color: pink;
-    color: palevioletred;
-    padding-top: 180px;
-    padding-left: 200px;
+    font-size: 2vw ;
+    padding-top: 15vw;
+    padding-left: 15vw;
 }
 #clock{
     border-radius: 50%;

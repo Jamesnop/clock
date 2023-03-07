@@ -1,0 +1,99 @@
+#clock{
+    position: relative;
+    margin: auto;
+
+    background-image: url("clock1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 40vw;
+    /* width: 400px;
+    height:400px; */
+    background-color: red;
+    /* border: 3px solid rebeccapurple; */
+}
+/* body{
+    background-color: black;
+} */
+#h{color: red;
+
+}
+#a{ 
+    color: rgb(51, 10, 255);
+    
+}
+#p{ 
+    color: rgb(254, 22, 246);
+    
+}
+#p1{ 
+    color: rgb(143, 231, 11);
+    
+}
+#y{ 
+    color: rgb(252, 134, 50);
+    
+}
+#h1{
+    color: rgb(152, 61, 172);
+    
+}
+#o{
+    color: rgb(26, 219, 229);
+    color: rgb(26, 219, 229);
+    
+}
+#l{
+    color: rgb(20, 155, 74);
+    
+}
+#i{
+    color: rgb(200, 243, 45);
+    
+}
+
+h2{
+    color: pink;
+    color: palevioletred;
+    padding-top: 180px;
+    padding-left: 200px;
+}
+#clock{
+    border-radius: 50%;
+}
+#hour{
+    width: 1%;
+    height: 18%;
+    background-color: rgb(230, 72, 72);
+    top: 32.5%;
+    left:49.5%;
+    position: absolute;
+    border-radius: 10px;
+    /* display: none; */
+    transform-origin:bottom;
+}
+#minute{
+    width: 1%;
+    height: 25%;
+    top: 25.5%;
+    left: 49.5%;
+    background-color: blue;
+    position: absolute;
+    /* display: none; */
+    border-radius: 10px;
+    transform-origin:bottom;
+
+}
+#second{
+    width: 1%;
+    height: 34%;
+    top: 16%;
+    left: 49.5%;
+    background-color: greenyellow;
+
+    position: absolute;
+    /* display: none; */
+    border-radius: 10px;
+
+    transform-origin:bottom;
+}
